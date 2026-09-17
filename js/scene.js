@@ -40,11 +40,11 @@
 
       const hint = host.querySelector(".visual-hint");
 
-      if (hint) {
-        hint.textContent = index === 4
-          ? "DRAG TO ROTATE · EXPLORE THE FORM"
-          : "MOVE YOUR CURSOR TO EXPLORE";
-      }
+    //   if (hint) {
+    //     hint.textContent = index === 4
+    //       ? "DRAG TO ROTATE · EXPLORE THE FORM"
+    //       : "MOVE YOUR CURSOR TO EXPLORE";
+    //   }
     },
 
     toggleMotion() {
