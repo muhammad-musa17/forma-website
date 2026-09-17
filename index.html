@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Forma Studio — Digital ideas. Made real.</title>
+
+  <meta
+    name="description"
+    content="Mobile apps, web development, cybersecurity, social media marketing, 3D modelling and AI integration."
+  >
+
+  <meta name="theme-color" content="#070B14">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/polish.css">
+
+  <script src="js/scene.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/upgrade.js" defer></script>
+</head>
+
+<body>
+  <a href="#services" class="skip-link">Skip to services</a>
+
+  <header class="header container">
+    <a href="#" class="logo" aria-label="Forma Studio home">
+      <span class="logo-mark" aria-hidden="true">f</span>
+      forma<span class="logo-dot">.</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#services">Our expertise</a>
+      <a href="#approach" class="approach-nav">Our approach</a>
+      <a href="#contact" class="nav-button">Let’s talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">
+        INDEPENDENT MINDS. SHARED AMBITION.
+      </p>
+
+      <div class="hero-heading">
+        <h1>
+          Digital ideas.<br>
+          <span>Made real.</span>
+        </h1>
+
+        <div class="hero-description">
+          <p>
+            We’re a team of builders, designers and problem-solvers.
+            Turning your next big idea into something people can
+            use, love and trust.
+          </p>
+
+          <a href="#services" class="button">
+            Explore our expertise <span aria-hidden="true">↘</span>
+          </a>
+        </div>
+      </div>
+
+      <section
+        class="showcase"
+        id="services"
+        aria-label="Interactive service showcase"
+      >
+        <div class="showcase-toolbar">
+          <span>THE INTERACTIVE STUDIO</span>
+
+          <button
+            type="button"
+            id="motion-toggle"
+            aria-pressed="false"
+          >
+            Pause motion Ⅱ
+          </button>
+        </div>
+
+        <div
+          class="stage"
+          id="service-panel"
+          role="tabpanel"
+          aria-labelledby="service-tab-0"
+        >
+          <div class="stage-copy">
+            <span class="service-number" id="service-number">
+              01 / 06
+            </span>
+
+            <h2 id="service-title">
+              Small screen.<br>
+              Big possibilities.
+            </h2>
+
+            <p id="service-description">
+              Intuitive mobile apps that turn everyday interactions
+              into experiences worth coming back to.
+            </p>
+
+            <a href="#contact" class="text-link" id="service-link">
+              Let’s build your app ↗
+            </a>
+          </div>
+
+          <div class="visual-container">
+            <canvas
+              id="service-canvas"
+              role="img"
+              aria-label="Animated mobile application concept"
+            >
+              Animated service illustrations.
+            </canvas>
+
+            <span class="visual-hint">
+              MOVE YOUR CURSOR TO EXPLORE
+            </span>
+
+            <span class="visual-caption" id="visual-caption">
+              MOBILE APP CONCEPT
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="service-tabs"
+          id="service-tabs"
+          role="tablist"
+          aria-label="Choose a service"
+        ></div>
+      </section>
+
+      <div class="hero-footer">
+        <span>STRATEGY MEETS CRAFT.</span>
+        <p>One team. From your first idea to your next chapter.</p>
+        <span>SCROLL TO DISCOVER ↓</span>
+      </div>
+    </section>
+
+    <section class="expertise container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 — WHAT WE DO</p>
+
+          <h2>
+            Different disciplines.<br>
+            One connected vision.
+          </h2>
+        </div>
+
+        <p class="section-description">
+          Build a product. Strengthen your presence.<br>
+          Bring a new dimension to your business.
+        </p>
+      </div>
+
+      <div class="service-grid" id="service-grid"></div>
+    </section>
+
+    <section class="approach" id="approach">
+      <div class="container approach-layout">
+        <div>
+          <p class="eyebrow">02 — HOW WE WORK</p>
+
+          <h2>
+            Good work starts<br>
+            with a conversation.
+          </h2>
+
+          <p class="approach-description">
+            We work with you to understand the challenge,
+            shape the right solution and make every detail count.
+          </p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <span class="step-number">01</span>
+
+            <div>
+              <h3>Find the right direction.</h3>
+              <p>
+                We listen, ask questions and agree on your goals,
+                scope and priorities.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <span class="step-number">02</span>
+
+            <div>
+              <h3>Make it tangible.</h3>
+              <p>
+                Explore concepts and prototypes together before
+                moving into production.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <span class="step-number">03</span>
+
+            <div>
+              <h3>Build. Refine. Launch.</h3>
+              <p>
+                We create, test and improve the details, then help
+                you take the next step.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <p class="eyebrow">03 — YOUR NEXT CHAPTER</p>
+
+      <h2>
+        Have a <em>what if?</em><br>
+        Let’s make it happen.
+      </h2>
+
+      <div class="contact-bottom">
+        <p>
+          Tell us what you have in mind.<br>
+          We’ll help you work out what comes next.
+        </p>
+
+        <button type="button" class="button" id="contact-button">
+          Start a conversation <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+
+      <p id="contact-status" role="status"></p>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#" class="logo">forma.</a>
+
+    <p>Independent minds. Exceptional possibilities.</p>
+
+    <span>© <span id="year"></span> Forma Studio</span>
+
+    <a href="#">Back to top ↑</a>
+  </footer>
+</body>
+</html>
